@@ -20,7 +20,7 @@ gem 'haml', '~> 6.3'
 
 # dry-rb gems
 gem 'dry-matcher', '~> 1.0'
-gem 'dry-monads', '~> 1.6'
+gem 'dry-monads', '~> 1.7'
 gem 'dry-validation', '~> 1.11'
 
 # for JSON responce
