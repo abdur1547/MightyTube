@@ -334,7 +334,7 @@ GEM
       logger
       rack (>= 2.2.4)
       redis-client (>= 0.22.2)
-    solargraph (0.51.1)
+    solargraph (0.51.2)
       backport (~> 1.2)
       benchmark
       bundler (~> 2.0)
