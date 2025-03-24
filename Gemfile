@@ -34,7 +34,7 @@ gem 'stimulus-rails'
 # for file storage
 gem 'shrine', '~> 3.6'
 
-gem 'sidekiq', '~> 7.3'
+gem 'sidekiq', '~> 8.0'
 
 gem 'redis', '>= 4.0.1'
 # gem "kredis"
