@@ -281,7 +281,7 @@ GEM
       psych (>= 4.0.0)
     redis (5.4.0)
       redis-client (>= 0.22.0)
-    redis-client (0.23.2)
+    redis-client (0.24.0)
       connection_pool
     regexp_parser (2.10.0)
     reline (0.6.0)
@@ -338,12 +338,12 @@ GEM
     shrine (3.6.0)
       content_disposition (~> 1.0)
       down (~> 5.1)
-    sidekiq (7.3.9)
-      base64
-      connection_pool (>= 2.3.0)
-      logger
-      rack (>= 2.2.4)
-      redis-client (>= 0.22.2)
+    sidekiq (8.0.3)
+      connection_pool (>= 2.5.0)
+      json (>= 2.9.0)
+      logger (>= 1.6.2)
+      rack (>= 3.1.0)
+      redis-client (>= 0.23.2)
     solargraph (0.54.2)
       backport (~> 1.2)
       benchmark (~> 0.4)
@@ -430,7 +430,7 @@ DEPENDENCIES
   rubocop
   rubocop-rails
   shrine (~> 3.6)
-  sidekiq (~> 7.3)
+  sidekiq (~> 8.0)
   solargraph
   sprockets-rails
   stimulus-rails
